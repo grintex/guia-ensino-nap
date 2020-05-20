@@ -28,16 +28,16 @@ img.logo {
 
 .header-hero .inner-header h1 {
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 2.1em;
 }
 
 .header-hero .inner-header p.subtitle {
-    color: #dbe5ff;
-    font-size: 1.0em;
+    color: #f2f6ff;
+    font-size: 1.8em;
     width: 30%;
     margin: 0 auto;
-    margin-bottom: 2em;
+    font-weight: 100;
 }
   
 .header-hero .flex {
@@ -47,7 +47,7 @@ img.logo {
 }
 
 .header-hero .flex img {
-    width: 70px;
+    width: 600px;
     height: auto;
 }
 
