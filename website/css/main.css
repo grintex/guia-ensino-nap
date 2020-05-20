@@ -34,7 +34,7 @@ img.logo {
 }
 
 li {
-    margin-bottom: 0.6em;
+    margin-bottom: 1em;
 }
 
 nav.navbar a,
@@ -91,11 +91,11 @@ header {
 }
 
 .wide-block div.row h1 {
-    line-height: 2em;
+    line-height: 1.2em;
     text-transform: uppercase;
     font-size: 4em;
-    font-weight: 600;
-
+    font-weight: 400;
+    margin-bottom: 0.5em;
 }
 
 .wide-block.small {
