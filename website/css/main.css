@@ -6,55 +6,17 @@ body p {
     font-size: 1.1em;
 }
 
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 400;
+}
+
 img.logo {
     width: 40px;
     height: auto;
-}
-
-.header-hero {
-    position:relative;
-    text-align:center;
-    background: #00693E;
-    color:white;
-    padding-top: 3em;
-}
-  
-.header-hero .inner-header {
-    height:45vh;
-    width:100%;
-    margin: 0;
-    padding: 0;
-}
-
-.header-hero .inner-header h1 {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 2.1em;
-}
-
-.header-hero .inner-header p.subtitle {
-    color: #f2f6ff;
-    font-size: 1.8em;
-    width: 30%;
-    margin: 0 auto;
-    font-weight: 100;
-}
-  
-.header-hero .flex {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.header-hero .flex img {
-    width: 600px;
-    height: auto;
-}
-
-.header-hero p.small {
-    color: #ffffff;
-    font-size: 1.0em;
-    color: #dbe5ff;
 }
 
 .navbar-collapse li.nav-item {
@@ -62,8 +24,90 @@ img.logo {
 }
 
 .fdb-block {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.fdb-icon-large {
+    width: 150px;
+    height: auto;
+}
+
+li {
+    margin-bottom: 0.6em;
+}
+
+nav a,
+nav a:link,
+nav a:active,
+nav a:hover {
+    color: black;
+}
+
+header {
+    background: #5DDDD3;
+}
+
+/* wide block */
+
+.wide-block {
+    position: relative;
+    padding-top: 80px;
+    height: 250px;
+
+    background-size: cover;
+    overflow: hidden;
+    background: 0% 50%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wide-block div.row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 3;
+}
+
+.wide-block div.row p {
+    line-height: 0.8em;
+    font-weight: 300;
+}
+
+.wide-block div.row h1 {
+    line-height: 2em;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 600;
+
+}
+
+.wide-block.small {
+    height: 250px;
+}
+
+.wide-block.mid {
+    height: 500px;
+}
+
+.wide-block.big {
+    height: 750px;
+}
+
+.wide-block.huge {
+    height: 1000px;
+}
+
+.wide-block video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 /* Froala */
