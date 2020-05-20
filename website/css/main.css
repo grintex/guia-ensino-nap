@@ -573,3 +573,7 @@ svg:not(:root).svg-inline--fa {
     position: static;
     width: auto
 }
+
+div.fdb-box {
+    padding: 60px 20px 60px 20px !important;
+}
