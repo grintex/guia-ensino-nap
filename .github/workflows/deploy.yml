@@ -4,8 +4,8 @@ on:
     branches:
       - master
 env:
-  PROD_HOST: semipresencial.ensino.uffs.cc
-  PROD_WEB_DIRECTORY: ~/semipresencial.ensino.uffs.cc
+  PROD_HOST: nap.uffs.cc
+  PROD_WEB_DIRECTORY: ~/nap.uffs.cc
 jobs:
   deploy:
     name: Deploy to production
