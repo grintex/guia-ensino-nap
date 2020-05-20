@@ -33,7 +33,7 @@ img.logo {
     height: auto;
 }
 
-li {
+div.row ul li {
     margin-bottom: 1em;
 }
 
