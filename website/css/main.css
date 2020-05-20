@@ -37,11 +37,23 @@ li {
     margin-bottom: 0.6em;
 }
 
-nav a,
-nav a:link,
-nav a:active,
-nav a:hover {
-    color: black;
+nav.navbar a,
+nav.navbar a:link,
+nav.navbar a:active,
+nav.navbar a:hover {
+    color: white;
+}
+
+nav.navbar a:hover {
+    text-decoration: underline;
+}
+
+footer nav a {
+    margin-bottom: 0.5em;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
 }
 
 header {
