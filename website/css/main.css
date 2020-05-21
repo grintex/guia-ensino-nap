@@ -122,6 +122,43 @@ header {
     z-index: 2;
 }
 
+@media (max-width: 720px) {
+    h1, h2 {
+        line-height: 1.1em;
+    }
+
+    .wide-block {
+        height: 300px;
+        padding-top: 0;
+        height: 250px;
+    }
+
+    .wide-block div.row {
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .wide-block div.row p {
+        line-height: 1.2em;
+        font-weight: 300;
+    }
+    
+    .wide-block div.row h1 {
+        line-height: 1.4em;
+        text-transform: uppercase;
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    .wide-block video {
+        display: none;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
 /* Froala */
 
 svg:not(:root).svg-inline--fa {
